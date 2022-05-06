@@ -2,7 +2,7 @@
 Repo for learning rust. Following The Rust Programming Language book: https://doc.rust-lang.org/book/
 
 
-Bookmark: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
+Bookmark: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#storing-values-with-variables
 
 ## Installing
 
