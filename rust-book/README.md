@@ -2,7 +2,7 @@
 Repo for learning rust. Following The Rust Programming Language book: https://doc.rust-lang.org/book/
 
 
-Bookmark: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#storing-values-with-variables
+Bookmark: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
 
 ## Installing
 
@@ -38,3 +38,7 @@ Packages would get added to the `[dependancies]` section heading. In Rust, these
 `cargo check` checks the code compiles but doesn't create the binary
 
 `cargo build --release` will compile the code with optimisations. It takes longer to compile but running the executable will run faster. It'll create the binary in ./target/release
+
+`cargo update` will ignore the cargo.lock file and get the latest specifications which satisfy the constraints in cargo.toml
+
+`cargo doc --open` will open docs for your dependencies and open them locally in a browser
