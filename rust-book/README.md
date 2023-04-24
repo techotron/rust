@@ -2,7 +2,7 @@
 Repo for learning rust. Following The Rust Programming Language book: https://doc.rust-lang.org/book/
 
 
-Bookmark: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
+Bookmark: https://doc.rust-lang.org/book/ch03-03-how-functions-work.html
 
 ## Installing
 
