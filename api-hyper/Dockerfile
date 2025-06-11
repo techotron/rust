@@ -6,5 +6,4 @@ COPY . .
 
 RUN cargo build --release
 
-# CMD ["cargo", "run", "--quiet"]
 CMD ["target/release/api-hyper"]
