@@ -1,0 +1,6 @@
+services:
+  api:
+    image: api-hyper
+    ports:
+      - 3000:3000
+

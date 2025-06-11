@@ -15,7 +15,7 @@ async fn hello(_: Request<hyper::body::Incoming>) -> Result<Response<Full<Bytes>
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
-    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
+    let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
 
     // We create a TcpListener and bind it to the loopback address
     let listener = TcpListener::bind(addr).await?;
